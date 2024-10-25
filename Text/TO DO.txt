@@ -2,23 +2,23 @@
 
 - Game
 
-1. Application
+1. Application //Alpfury 
 * Game Window
 * Controller or Keyboard input?
 
-3. Settings
+3. Settings //Alpfury
 * Pause Menu
 * Frame Limiter, vsync
 * Difficulty?
 * Resolution
 
-2. Player Mechanics
+2. Player Mechanics //Lunar
 * Movement
 * Player/Enemy Attacks
 * Health
 * Resources
 
-- Audio
+- Audio //Lunar
 
 /o Music
 * Boss Music
@@ -42,8 +42,6 @@ Screen Art
 * Environment Sprite
 * Background Sprite
 * Text Box
-
-0. - Story-based Game
 * Storyline
 * Characters
 * Conflict
