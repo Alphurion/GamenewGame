@@ -23,6 +23,22 @@ ALWAYS using namespace std;
 
 ONLY USE GLOBAL FUNCTIONS IF NECESSARY TO REDUCE MEMORY USAGE
 
+Consider using a vector for instances with over 10 cases i.e.
+if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else if()
+else
+
+Any constant data like attacks damage or resources should be kept in a vector or file and altered
+
 ALWAYS COMMENT REASON FOR USING A VARIABLE
 
 Player mechanics
