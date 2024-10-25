@@ -2,17 +2,17 @@
 
 - Game
 
-Application
+1. Application
 * Game Window
 * Controller or Keyboard input?
 
-Settings
+3. Settings
 * Pause Menu
 * Frame Limiter, vsync
 * Difficulty?
 * Resolution
 
-Player Mechanics
+2. Player Mechanics
 * Movement
 * Player/Enemy Attacks
 * Health
@@ -20,7 +20,7 @@ Player Mechanics
 
 - Audio
 
-Music
+/o Music
 * Boss Music
 * Area Music
 * Low hitpoint music?
@@ -29,7 +29,7 @@ Character Interactions
 * Hit Sound Effects
 * Dialogue Sound
 
-- Gameart
+/p Gameart //Alpfury
 
 Creatures
 * Character sprites
@@ -43,7 +43,7 @@ Screen Art
 * Background Sprite
 * Text Box
 
-- Story-based Game
+0. - Story-based Game
 * Storyline
 * Characters
 * Conflict
