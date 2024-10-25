@@ -8,6 +8,8 @@ void function()
 NO SNAKE CASE 
 Bool This_Is_Wrong = false;
 
+Format document in vscode regularly
+
 USE CAMEL CASE 
 Bool thisIsCorrect = true;
 Classes must be capitalized all the way
