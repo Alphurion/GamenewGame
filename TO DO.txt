@@ -1,1 +1,49 @@
+#To Do List
 
+- Game
+
+Application
+* Game Window
+* Controller or Keyboard input?
+
+Settings
+* Pause Menu
+* Frame Limiter, vsync
+* Difficulty?
+* Resolution
+
+Player Mechanics
+* Movement
+* Player/Enemy Attacks
+* Health
+* Resources
+
+- Audio
+
+Music
+* Boss Music
+* Area Music
+* Low hitpoint music?
+
+Character Interactions
+* Hit Sound Effects
+* Dialogue Sound
+
+- Gameart
+
+Creatures
+* Character sprites
+* Enemy Sprites
+* Attack Sprites
+* Menu Ability Sprites
+
+Screen Art
+* Objects (traps, grass, etc)
+* Environment Sprite
+* Background Sprite
+* Text Box
+
+- Story-based Game
+* Storyline
+* Characters
+* Enemies
