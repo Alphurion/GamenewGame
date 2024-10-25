@@ -8,20 +8,39 @@ This is file is purely meant to call onto game logic
 * Game Window
 * Controller or Keyboard input?
 
-2. Player Mechanics
-* Movement
-* Player/Enemy Attacks
-* Health
-* Resources
-
-3. Settings
+2. Settings
 * Pause Menu
 * Frame Limiter, vsync
 * Difficulty?
 * Resolution
 */
 
-class GameSettings
-{
+//allsettings
+const float framerate = 24;
 
+class settings
+{ //default settings
+    public:
+        float resolutionW = 1920;
+        float resolutionL = 1080;
+        bool fullscreen = true;
+        bool vsync = false;
+
+        //volume
+        bool enableVolume = true;
+        float masterVolume = 100;
+        float musicVolume = 100;
+        float soundVolume = 100;
+        float dialogueVolume = 100;
+
+        //accessibility
+        bool photoSensitiveMode = false; 
+        bool colorblindMode = false; 
 };
+#include <cstdlib>
+
+int main()
+{
+    system("open Downloads/image.png");
+    return 0;
+}
