@@ -1,5 +1,8 @@
 /*
 CONVENTIONS
+
+Comment atleast every 5 lines pls i need understand
+
 newline after function
 void function()
 {
