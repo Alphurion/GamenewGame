@@ -37,10 +37,3 @@ class settings
         bool photoSensitiveMode = false; 
         bool colorblindMode = false; 
 };
-#include <cstdlib>
-
-int main()
-{
-    system("open Downloads/image.png");
-    return 0;
-}
