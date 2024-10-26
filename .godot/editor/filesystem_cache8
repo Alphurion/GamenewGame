@@ -1,0 +1,23 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729923689
+icon.svg::CompressedTexture2D::7043381011439661368::1729921231::1729921655::1::::<><>::
+README.md::TextFile::-1::1729898188::0::1::::<><>::
+::res://Soundtrack/::1729921161
+::res://Soundtrack/Menu/::1729921553
+Gamenewgame song #1.mp3::AudioStreamMP3::4852286623119332796::1729921162::1729921553::1::::<><>::
+::res://Source/::1729921318
+::res://Source/C++/::1729921162
+::res://Source/C++/Application/::1729921162
+::res://Source/C++/Monsters/::1729898188
+::res://Source/Godot/::1729921655
+::res://Source/Godot/Scenes/::1729923649
+level_1.tscn::PackedScene::7603696987082882568::1729923559::0::1::::<><>::
+player.tscn::PackedScene::1540648853412889553::1729923559::0::1::::<><>::res://Source/Godot/Scripts/player.gd<>uid://dfgku4ya4gjmc::::res://Sprite/PlaceHolders/player.png
+::res://Source/Godot/Scripts/::1729923619
+main.gd::GDScript::-1::1729921607::0::1::::<>Node<>::
+player.gd::GDScript::-1::1729923619::0::1::::<>CharacterBody2D<>::
+::res://Sprite/::1729921945
+::res://Sprite/PlaceHolders/::1729921964
+player.png::CompressedTexture2D::7523236981891046846::1715086386::1729921964::1::::<><>::
+::res://Text/::1729898188
+TO DO.txt::TextFile::-1::1729898188::0::1::::<><>::

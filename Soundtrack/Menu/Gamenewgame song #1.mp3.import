@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbeqpmh1ier7y"
+path="res://.godot/imported/Gamenewgame song #1.mp3-98c6ebd586a1320f2e1a2f5a317da35c.mp3str"
+
+[deps]
+
+source_file="res://Soundtrack/Menu/Gamenewgame song #1.mp3"
+dest_files=["res://.godot/imported/Gamenewgame song #1.mp3-98c6ebd586a1320f2e1a2f5a317da35c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
