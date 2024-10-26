@@ -1,5 +1,5 @@
 /*
-This is file is purely meant to call onto game logic
+This is file is purely meant to call onto game settings
     #To Do List
 
 - Game
