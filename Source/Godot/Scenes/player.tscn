@@ -394,6 +394,4 @@ script = ExtResource("1_cpw48")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_asvlv")
-animation = &"backAttack"
-frame = 2
-frame_progress = 0.365238
+animation = &"frontIdle"

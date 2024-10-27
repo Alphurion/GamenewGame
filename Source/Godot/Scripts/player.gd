@@ -1,16 +1,16 @@
 extends CharacterBody2D
 
 @export var speed = 100
-@export var accel = 0
+@export var accel = 100
 var current_dir = "none"
 
 func _ready():
-	$AnimatedSprite2D.play("front_idle")
+	$AnimatedSprite2D.play("frontIdle")
 
 
 func _physics_process(delta):
-	player_movement(delta)
-	var moveDirection: Vector2 = Input.get_vector("left","right","up","down")
+	playerMovement(delta)
+	var moveDirection: Vector2 = Input.get_vector("ui_left","ui_right","ui_up","ui_down")
 	
 	
 	velocity.x = move_toward(velocity.x, speed * moveDirection.x,accel)
@@ -19,54 +19,54 @@ func _physics_process(delta):
 	move_and_slide()
 	
 
-func player_movement(delta):
+func playerMovement(delta):
 	if Input.is_action_pressed("ui_right"):
 		current_dir = "right"
-		play_anim(1)
+		playAnim(1)
 	elif Input.is_action_pressed("ui_left"):
 		current_dir = "left"
-		play_anim(1)
+		playAnim(1)
 	elif Input.is_action_pressed("ui_down"):
 		current_dir = "down"
-		play_anim(1)
+		playAnim(1)
 	elif Input.is_action_pressed("ui_up"):
 		current_dir = "up"
-		play_anim(1)
+		playAnim(1)
 	else:
-		play_anim(0)
+		playAnim(0)
 	
 	
-func play_anim(movement):
+func playAnim(movement):
 	var dir = current_dir
 	var anim = $AnimatedSprite2D
 	
 	if dir == "right":
 		anim.flip_h = false
 		if movement == 1:
-			anim.play("side_walk")
+			anim.play("sideWalk")
 		elif movement == 0:
-			anim.play("side_idle")
+			anim.play("sideIdle")
 	
 	if dir == "left":
 		anim.flip_h = true
 		if movement == 1:
-			anim.play("side_walk")
+			anim.play("sideWalk")
 		elif movement == 0:
-			anim.play("side_idle")
+			anim.play("sideIdle")
 	
 	if dir == "down":
 		anim.flip_h = false
 		if movement == 1:
-			anim.play("front_walk")
+			anim.play("frontWalk")
 		elif movement == 0:
-			anim.play("front_idle")
+			anim.play("frontIdle")
 	
 	if dir == "up":
 		anim.flip_h = false
 		if movement == 1:
-			anim.play("back_walk")
+			anim.play("backWalk")
 		elif movement == 0:
-			anim.play("back_idle")
+			anim.play("backIdle")
 		
 func player():
 	pass
