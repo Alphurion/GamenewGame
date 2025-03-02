@@ -17,23 +17,3 @@ This is file is purely meant to call onto game settings
 
 //allsettings
 const float framerate = 24;
-
-class settings
-{ //default settings
-    public:
-        float resolutionW = 1920;
-        float resolutionL = 1080;
-        bool fullscreen = true;
-        bool vsync = false;
-
-        //volume
-        bool enableVolume = true;
-        float masterVolume = 100;
-        float musicVolume = 100;
-        float soundVolume = 100;
-        float dialogueVolume = 100;
-
-        //accessibility
-        bool photoSensitiveMode = false; 
-        bool colorblindMode = false; 
-};
