@@ -11,8 +11,8 @@ private:
         bool fullscreen = true;
         bool vsync = false;
 public:
-    void runGame();
-
+void runGame();
+void endGame();
     //Constructor Destructor
     Game();
     ~Game();
