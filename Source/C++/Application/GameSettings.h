@@ -1,38 +1,33 @@
 /*
-This is file is purely meant to call onto game settings
-    #To Do List
+    #ToDo
 
 - Game
+1. Make constructor for default settings
+2. Determine setters and getters
 
-1. Application
-* Game Window
-* Controller or Keyboard input?
-
-2. Settings
-* Pause Menu
-* Frame Limiter, vsync
-* Difficulty?
-* Resolution
 */
 
-//allsettings
-const float framerate = 24;
 
-class settings
-{ //default settings
-        float resolutionW = 1920;
-        float resolutionL = 1080;
-        bool fullscreen = true;
-        bool vsync = false;
 
-        //volume
-        bool enableVolume = true;
-        float masterVolume = 100;
-        float musicVolume = 100;
-        float soundVolume = 100;
-        float dialogueVolume = 100;
+class Settings
+{
 
-        //accessibility
-        bool photoSensitiveMode = false; 
-        bool colorblindMode = false;
+};
+
+class Sound : public Settings
+{
+    //volume
+    bool enableVolume = true;
+    float masterVolume = 100;
+    float musicVolume = 100;
+    float soundVolume = 100;
+    float dialogueVolume = 100;
+
+};
+
+class Accessibility : public Settings
+{
+    //accessibility
+    bool photoSensitiveMode = false; 
+    bool colorblindMode = false;
 };
