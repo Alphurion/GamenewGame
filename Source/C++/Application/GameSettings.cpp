@@ -14,6 +14,6 @@ This is file is purely meant to call onto game settings
 * Difficulty?
 * Resolution
 */
-
+#include "GameSettings.h"
 //allsettings
 const float framerate = 24;
